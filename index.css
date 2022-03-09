@@ -1,0 +1,357 @@
+
+body{
+    margin: auto;
+}
+
+.modejs{
+   margin-top: -10px;
+}
+
+.mode {
+    text-align: center;
+    margin-left: 900px;
+    font-size: 17px;
+    color: red;
+    margin-top: 10px;
+   }
+  .change {
+             cursor: pointer;
+             border: 1px solid #555;
+             border-radius: 80%;
+             width: 70px;
+             color: green;
+             text-align: center;
+             padding: 5px;
+             margin-left: 10px;
+             margin-top: 20px;
+         }
+         
+.dark{
+             background-color: #222;
+             color: #e6e6e6;
+         }              
+     
+
+#zomato{
+    position: absolute;
+    left: 4%;
+    right: 9%;
+    top: 2%;
+    bottom: 2%;}
+
+.header1{
+    margin-top: -40px;
+}
+
+header{
+    height: 110px;
+    
+}
+
+
+
+h1{
+    position: absolute;
+    right: 72%;
+    top: -0.5%;
+    left: 10%;
+    font-size: 60;
+
+}
+
+
+#social{
+    position: absolute;
+    right: 2%;
+    top: 3%;
+}
+.slogo{
+    height: 55px;
+    width: 55px;
+}
+
+a{
+    text-decoration:none
+}
+
+
+#search{
+    height:400px;
+    background-image: url('food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+}
+
+#logo{
+    height: 132px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 80px;
+    color: #32992c;
+       
+}
+
+@keyframes revolve {
+    0% {transform: rotate(30deg)}
+    25% {transform: rotate(90deg)}
+    50% {transform: rotate(180deg)}
+    75% {transform: rotate(270deg)}
+    100% {transform: rotate(360deg)}
+}
+
+#logo > span{
+    margin-left: 30%;
+    margin-top:15%;
+    position: absolute;
+}
+
+#heading{
+    margin-left: 23%;
+    margin-top: 12%;
+    position: absolute;
+    color: rgb(255, 249, 249);
+    font-size: 45px;
+}
+
+.dropdown{
+    height:60px;
+    width:60%;
+    margin-left:27%;
+    margin-top:20%;
+    position: absolute;
+    color: red;
+}
+
+select{
+    height: 60px;
+    width: 39%;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    top: -22%;
+    left: -6%;
+}
+
+.restlist{
+
+        width: 59%;
+        position: absolute;
+        left: 35%;
+        top: -23%;
+        color: red;
+}
+
+a{
+    text-decoration:none
+}
+
+.line{
+
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+hr{
+    
+        border:none;
+        border-top:10px dotted rgb(7, 6, 6);
+        color:rgb(14, 9, 9);
+        height:10px;
+        width:50%;
+        position: relative;
+        top: -15px;
+}
+.design
+{
+    background-color: #E6CCA9;
+    MARGIN-TOP: -50px;
+    height: 100%
+  
+}
+
+/* QuickSearch Start */
+#QuickSearch{
+    height:300px;
+    width:80%;
+    margin-left: 10%;
+    margin-top:5%;
+}
+#QuickHeading{
+    color:#32992c;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    display:block;
+    margin-left: 2%;
+}
+
+#QuickSubHeading{
+    line-height: 2;
+    color:gray;
+    font-size:20px;
+    margin-left: 2%;
+}
+
+
+.tileContainer{
+    height:200px;
+    width:30%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 20px 10px gray;
+
+}
+
+@keyframes dance{
+    0% {transform: rotate(-5deg)}
+    25% {transform: rotate(0deg)}
+    50% {transform: rotate(5deg)}
+    60% {transform: scale(1.1)}
+    75% {transform: rotate(0deg)}
+    100% {transform: rotate(-5deg)}
+}
+
+.tileComponent1{
+    width:58%;
+    float: left;
+    height:200px;
+}
+
+.tileComponent1 > img{
+    height:200px;
+    width:100%;
+}
+.tileComponent2{
+    width:32%;
+    float: left;
+    height:100px;
+    margin-left: 7%;
+    margin-top: 15%;
+}
+.componentHeading{
+    font-size: 26px;
+    color:#E60965;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.componentHeading > a{
+    color:#E60965;
+}
+.componentSubHeading{
+    color:gray;
+    font-size:20px;
+}
+/* footer Start */
+footer{
+   margin-top: 10px;
+    border: 2px dashed green;
+    height: 270px;
+    background-color: #e09c83;
+}
+
+.foot1{
+    width:35%;
+    height:120px;
+    float: left;
+    border-right:2px solid white
+} 
+
+
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:rgb(244, 248, 250)
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:rgb(202, 241, 215)
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:rgb(237, 245, 209)
+    }
+    .tileContainer{
+        width:45%
+    }
+    #heading{
+        margin-top:22%;
+        margin-left: 23%;
+    }
+    .dropdown{
+        margin-top:30%;
+        margin-left: 29%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:rgb(242, 209, 245)
+    }
+    #logo{
+        margin-left:37%
+    }
+    #heading{
+        margin-top:25%;
+        margin-left:12%;
+    }
+    .dropdown {
+        margin-top: 35%;
+        margin-left: 24%;
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(163, 240, 243)
+    }
+    .tileContainer{
+        width:90%
+    }
+    #heading{
+        font-size:38px;
+        margin-top:30%;
+        margin-left:4%;
+    }
+    .dropdown {
+        margin-top: 40%;
+        margin-left: 10%;
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background-color:rgb(246, 202, 196)
+    }
+    #heading {
+        font-size: 34px;
+        margin-top: 45%;
+        margin-left: 0%;
+    }
+    .dropdown{
+        margin-top: 62%;
+        margin-left: 7%;
+    }
+}
+
+.foot2{
+    width: 35%;
+    height: 120px;
+    position: absolute;
+    left: 71%;
+}
+
+.loginf{
+   background-color: #C1DEAE;
+}

@@ -1,0 +1,169 @@
+body
+{
+    margin: auto;
+}
+a{
+    text-decoration: none
+}
+#zomato 
+{
+    position: absolute;
+    left: 4%;
+    right: 9%;
+    top: 2%;
+    bottom: 2%;
+}
+
+/* Header Start */
+header
+{
+    height: 100px;
+    background-color: #55c04c;
+}
+
+h1
+{
+    position: absolute;
+    right: 72%;
+    top: -3%;
+    left: 10%;
+    font-size: 60;
+
+}
+
+#icon
+{
+    float:left
+}
+
+#social
+{
+        position: absolute;
+        right: 2%;
+        top: 3%;
+}
+
+.slogo
+{
+    height: 60px;
+    width: 60px;
+}
+
+.body
+{
+  height: 2500px;
+  background-color: #C0D8C0;
+}
+
+#heading
+{
+    text-align: center;
+    margin-top: auto;
+    position: absolute;
+    left: 46%;
+    top: 120px;
+}
+
+.mainContent
+{
+    height:700px;
+    width:75%;
+    margin-left:13%
+}
+
+h3{
+    text-align: center;
+    font-size: 170%;
+    text-decoration: underline;
+    
+}
+
+h4{
+    text-align: center;
+    font-size: 120%;
+    color: black;
+}
+
+h2{
+    text-decoration: underline;
+    
+}
+input{
+   margin-left: 15%;
+}
+#filter
+{
+    height: 500px;
+    width: 22%;
+    border: 2px solid red;
+    float: left;
+    margin-top: 75px;
+}
+#card{
+    height:700px;
+    width:75%;
+    margin-left:2%;
+    float: left;
+}
+
+.tileContainer{
+    height: 325px;
+    width: 60%;
+    float: left;
+    margin-top: 7%;
+    margin-left: 12%;
+    box-shadow: 3px 5px 4px grey;
+}
+.tileComponent1
+{
+    width: 55%;
+    float: left;
+    height: 203px;
+    margin-top: 70px;
+    margin-left: 14px;
+}
+.tileComponent1 > img{
+    height:200px;
+    width:100%;
+}
+.tileComponent2{
+    width:32%;
+    float: left;
+    height:100px;
+    margin-left: 7%;
+    margin-top: 15%;
+}
+.componentHeading{
+    font-size: 26px;
+    color:#E60965;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.componentHeading > a{
+    color:#E60965;
+}
+.componentSubHeading{
+    color:gray;
+    font-size:20px;
+}
+
+/* footer Start */
+footer{
+    height:200px;
+    background-color:#e09c83
+}
+
+.foot1{
+    width:35%;
+    height:120px;
+    float: left;
+    border-right:2px solid white
+}
+
+.foot2{
+    width: 35%;
+    height: 120px;
+    position: absolute;
+    left: 71%;
+}
